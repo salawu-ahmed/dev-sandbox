@@ -7,45 +7,49 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
-      <svg
-        width="788"
-        height="766"
-        viewBox="0 0 788 766"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M788 203V0H574C474.589 0 394 80.5887 394 180C394 80.5887 313.411 0 214 0H4V203C4 302.411 84.5889 383 184 383H180C80.5889 383 0 463.589 0 563V766H214C313.411 766 394 685.411 394 586C394 685.411 474.589 766 574 766H784V563C784 463.589 703.411 383 604 383H608C707.411 383 788 302.411 788 203Z"
-          fill="#CEDFC3"
-        />
-      </svg>
+    <nav class="navigation-bar">
+      <div class="logo">
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 788 766"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M788 203V0H574C474.589 0 394 80.5887 394 180C394 80.5887 313.411 0 214 0H4V203C4 302.411 84.5889 383 184 383H180C80.5889 383 0 463.589 0 563V766H214C313.411 766 394 685.411 394 586C394 685.411 474.589 766 574 766H784V563C784 463.589 703.411 383 604 383H608C707.411 383 788 302.411 788 203Z"
+            fill="#CEDFC3"
+          />
+        </svg>
 
-      <h1>
-        Lumine <br />
-        Naturals
-      </h1>
-      <ul>
-        <li>Shop</li>
-        <li>Cleansers</li>
-        <li>Moisturizers</li>
-        <li>Serums and Treatments</li>
-        <li>About Us</li>
+        <h1 class="logo__text">
+          Lumine <br />
+          Naturals
+        </h1>
+      </div>
+      <ul class="navigation__links">
+        <li class="navigation__link">Shop</li>
+        <li class="navigation__link">Cleansers</li>
+        <li class="navigation__link">Moisturizers</li>
+        <li class="navigation__link">Serums and Treatments</li>
+        <li class="navigation__link">About Us</li>
       </ul>
     </nav>
-    <div>
-      <h1>Harmony In Every Drop, Naturally Yours</h1>
-      <p>
-        Experience the purity of skincare with our all-natural collection,
-        thoughtfully created just for you. Unveil the beauty of wholesome
-        ingredients working in harmony to nourish and revitalise your skin.
-      </p>
-      <button>Shop Now</button>
-    </div>
-    <div>
-      <img src="./assets/product-image.jpg" alt="" />
+    <div class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-section__header">Harmony In Every Drop, Naturally Yours</h1>
+        <p class="hero-section__description">
+          Experience the purity of skincare with our all-natural collection,
+          thoughtfully created just for you. Unveil the beauty of wholesome
+          ingredients working in harmony to nourish and revitalise your skin.
+        </p>
+        <button class="hero-section__button">Shop Now</button>
+      </div>
+      <div class="hero-section__image">
+        <img src="./assets/product-image.jpg" alt="" />
+      </div> 
     </div>
   </body>
 </html>
